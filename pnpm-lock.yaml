@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@heroicons/react': 1.0.6
+  '@heroicons/react': 2.0.18
   '@tailwindcss/forms': 0.5.3
   '@tailwindcss/typography': 0.5.9
   '@trigger.dev/companyicons': 1.5.1
@@ -26,12 +26,13 @@ specifiers:
   react-dom: 18.2.0
   server-only: 0.0.1
   styled-components: 6.0.0-beta.2
+  tailwind-merge: 1.13.0
   tailwindcss: 3.3.1
   typescript: 4.9.4
   use-count-up: 3.0.1
 
 dependencies:
-  '@heroicons/react': 1.0.6_react@18.2.0
+  '@heroicons/react': 2.0.18_react@18.2.0
   '@trigger.dev/companyicons': 1.5.1_biqbaboplfbrettd7655fr4n2y
   clsx: 1.2.1
   date-fns: 2.29.3
@@ -42,6 +43,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   server-only: 0.0.1
   styled-components: 6.0.0-beta.2_biqbaboplfbrettd7655fr4n2y
+  tailwind-merge: 1.13.0
   use-count-up: 3.0.1_react@18.2.0
 
 devDependencies:
@@ -1488,8 +1490,8 @@ packages:
       - supports-color
     dev: true
 
-  /@heroicons/react/1.0.6_react@18.2.0:
-    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
+  /@heroicons/react/2.0.18_react@18.2.0:
+    resolution: {integrity: sha512-7TyMjRrZZMBPa+/5Y8lN0iyvUU/01PeMGX2+RE7cQWpEUIcb4QotzUObFkJDejj/HUH4qjP/eQ0gzzKs2f+6Yw==}
     peerDependencies:
       react: '>= 16'
     dependencies:
@@ -4519,6 +4521,10 @@ packages:
       '@pkgr/utils': 2.4.1
       tslib: 2.5.3
     dev: true
+
+  /tailwind-merge/1.13.0:
+    resolution: {integrity: sha512-mUTmDbcU+IhOvJ0c42eLQ/nRkvolTqfpVaVQRSxfJAv9TabS6Y2zW/1wKpKLdKzyL3Gh8j6NTLl6MWNmvOM6kA==}
+    dev: false
 
   /tailwindcss/3.3.1_postcss@8.4.20:
     resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
