@@ -21,17 +21,17 @@ export default function Page() {
 
   return (
     <main className="flex justify-center">
-      <div className="w-full max-w-5xl">
+      <div className="w-full max-w-5xl p-8">
         <Header1 variant={'large/bold'}>Company Icons</Header1>
         <Input
           variant="medium"
           icon={<MagnifyingGlassIcon className="h-4 w-4 text-slate-400" />}
-          className="mb-2"
+          className="mb-6"
           placeholder="Search"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <div className="flex flex-wrap gap-4">
+        <div className="grid grid-cols-[repeat(auto-fill,_minmax(100px,_auto))] gap-4">
           {filteredIcons.map(([name, icon]) => {
             if ('all' in icon) {
               return <Icon key={name} name={name} />;
@@ -55,7 +55,7 @@ function Icon({ name, variant }: { name: string; variant?: 'light' | 'dark' }) {
     <div className="flex flex-col items-center justify-center gap-2">
       <div
         className={cn(
-          'relative flex h-24 w-24 flex-col items-center justify-center rounded-md border border-slate-700',
+          'relative flex aspect-square w-full flex-col items-center justify-center rounded-md border border-slate-700',
           variant === 'dark' && 'bg-slate-200',
         )}
       >
