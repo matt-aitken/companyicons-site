@@ -4,6 +4,7 @@ specifiers:
   '@heroicons/react': 1.0.6
   '@tailwindcss/forms': 0.5.3
   '@tailwindcss/typography': 0.5.9
+  '@trigger.dev/companyicons': 1.5.1
   '@types/ms': 0.7.31
   '@types/node': 18.11.17
   '@types/react': 18.0.26
@@ -31,6 +32,7 @@ specifiers:
 
 dependencies:
   '@heroicons/react': 1.0.6_react@18.2.0
+  '@trigger.dev/companyicons': 1.5.1_biqbaboplfbrettd7655fr4n2y
   clsx: 1.2.1
   date-fns: 2.29.3
   dinero.js: 2.0.0-alpha.8
@@ -1702,6 +1704,16 @@ packages:
       postcss-selector-parser: 6.0.10
       tailwindcss: 3.3.1_postcss@8.4.20
     dev: true
+
+  /@trigger.dev/companyicons/1.5.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-p2CUn6nFbCcNz5YFALmZzLqFHmcll3CAcs4pnhNk8IQfrrUzS6uykokws93CotukAivdxVmQIYglYZpz1c1/GA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: 18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
